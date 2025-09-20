@@ -3,12 +3,13 @@ import ReactDOM from "react-dom";
 import store from "./src/store";
 import { Provider } from "react-redux";
 import Count from "./src/components/Count";
+import UseCallbackExample from "./src/components/UseCallbackExample";
 
 const App = () => {
   return (
     <div>
       <p>Welcome in React world</p>
-      <Count />
+      <UseCallbackExample/>
     </div>
   );
 };
